@@ -56,12 +56,14 @@ body {
     color: var(--branco-principal);
     display: block;
     text-decoration: none;
+    margin: auto;
+    max-width: 512px;
 }
 
 .botao__secundario {
     background-color: transparent;
     border: 2px solid var(--branco-principal);
-    margin: 1rem 0 .62rem 0;
+    margin: 1rem auto .62rem auto;
 }
 
 .container__aviso {
@@ -69,3 +71,32 @@ body {
     font-size: 0.75rem;
 }
 
+.secundario {
+    align-items: center;
+    margin: 0 10rem;
+}
+
+.secundario__imagem {
+    width: 80%;
+    padding: 0 1rem;
+}
+
+.descricao__titulo {
+    font-size: 3rem;
+    font-weight: 700;
+    color: var(--branco-principal);
+    margin-bottom: .5rem;
+}
+
+.descricao__texto {
+    color: var(--cinza-secundario);
+}
+
+.secundario__botao {
+    display: inline-block;
+    margin-top: 1rem;
+}
+
+.container__descricao {
+    padding: 1rem;
+}
