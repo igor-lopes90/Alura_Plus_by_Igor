@@ -4,6 +4,7 @@
     --branco-principal: #FFFFFF;
     --cinza-secundario: #C0C0C0;
     --botao-azul: #167BF7;
+    --botao-azul-efeito: #3c92fa;
     --cor-de-fundo: #00030C;
     --fonte-principal: "Inter", sans-serif;
 }
@@ -127,7 +128,7 @@ body {
 
 .rodape {
     text-align: center;
-    margin: 5rem 7rem;
+    margin: 5rem 3rem;
 }
 
 .rodape__logo {
@@ -152,4 +153,17 @@ body {
     color: var(--cinza-secundario);
     font-size: .8rem;
     margin: 1rem 0;
+}
+
+.lista__link a:hover {
+    color: var(--botao-azul);
+}
+
+.lista__link a:active {
+    color: purple;
+}
+
+.container__botao:hover {
+    background-color: var(--botao-azul-efeito);
+    color: var(--cor-de-fundo);
 }
